@@ -1,5 +1,8 @@
 package com.nomiceu.nomilabs.gregtech.recipe;
 
+import static gregtech.api.recipes.RecipeMaps.ELECTROMAGNETIC_SEPARATOR_RECIPES;
+import static gregtech.api.recipes.RecipeMaps.LASER_ENGRAVER_RECIPES;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -17,9 +20,6 @@ import gregtech.api.recipes.RecipeMap;
 import gregtech.api.recipes.builders.FuelRecipeBuilder;
 import gregtech.api.recipes.builders.SimpleRecipeBuilder;
 import gregtech.core.sound.GTSoundEvents;
-
-import static gregtech.api.recipes.RecipeMaps.ELECTROMAGNETIC_SEPARATOR_RECIPES;
-import static gregtech.api.recipes.RecipeMaps.LASER_ENGRAVER_RECIPES;
 
 public class LabsRecipeMaps {
 
