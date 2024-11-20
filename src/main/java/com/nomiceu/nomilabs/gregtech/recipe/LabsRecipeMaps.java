@@ -18,6 +18,9 @@ import gregtech.api.recipes.builders.FuelRecipeBuilder;
 import gregtech.api.recipes.builders.SimpleRecipeBuilder;
 import gregtech.core.sound.GTSoundEvents;
 
+import static gregtech.api.recipes.RecipeMaps.ELECTROMAGNETIC_SEPARATOR_RECIPES;
+import static gregtech.api.recipes.RecipeMaps.LASER_ENGRAVER_RECIPES;
+
 public class LabsRecipeMaps {
 
     public static List<RecipeMap<SimpleRecipeBuilder>> MICROVERSE_RECIPES;
@@ -97,5 +100,13 @@ public class LabsRecipeMaps {
 
     public static boolean newMultis() {
         return LabsConfig.content.gtCustomContent.enableNewMultiblocks;
+    }
+
+    public static void modifyMaps() {
+        LASER_ENGRAVER_RECIPES.setMaxFluidInputs(1);
+        LASER_ENGRAVER_RECIPES.setMaxFluidOutputs(1);
+
+        ELECTROMAGNETIC_SEPARATOR_RECIPES.setMaxFluidInputs(1);
+        ELECTROMAGNETIC_SEPARATOR_RECIPES.setMaxFluidOutputs(3);
     }
 }

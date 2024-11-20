@@ -160,6 +160,8 @@ public class CommonProxy {
         if (LabsConfig.content.customContent.enableComplexRecipes && LabsItems.HAND_FRAMING_TOOL != null)
             event.getRegistry().register(new HandFramingRecipe(LabsNames.makeLabsName("hand_framing_recipe")));
 
+        LabsRecipeMaps.modifyMaps();
+
         // com.nomiceu.nomilabs.recipe.LabsTestRecipes.initRecipes();
     }
 
