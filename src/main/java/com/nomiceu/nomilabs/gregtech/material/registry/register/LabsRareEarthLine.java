@@ -51,5 +51,10 @@ public class LabsRareEarthLine {
                 .color(0xeaf293)
                 .components(Hydrogen, 1, Nitrogen, 1, Oxygen, 3)
                 .build();
+        EuropiumFOD = new Material.Builder(125, makeLabsName("europium_fod"))
+                .dust()
+                .color(0xf2ec4d).iconSet(FINE)
+                .components(Carbon, 30, Hydrogen, 30, Europium, 1, Fluorine, 21, Oxygen, 6)
+                .build();
     }
 }

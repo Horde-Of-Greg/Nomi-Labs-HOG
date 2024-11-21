@@ -132,6 +132,7 @@ public class LabsMaterials {
     public static Material CeriumConcentrate; // ID: 122; HM only
     public static Material DissolvedCeriumConcentrate; // ID: 123; HM only
     public static Material VaporousNitricAcid; // ID: 124
+    public static Material EuropiumFOD; // ID: 125
 
     /**
      * Microverse Materials

@@ -42,9 +42,6 @@ public class LabsMisc {
 
         MAGNETRON = createItem(new ItemBase(makeLabsName("magnetron"), LabsCreativeTabs.TAB_NOMI_LABS));
 
-        EUROPIUM_SUPERCONDUCTOR = createItem(
-                new ItemBase(makeLabsName("europium_superconductor"), LabsCreativeTabs.TAB_NOMI_LABS));
-
         TINY_COKE = createItem(new ItemTinyCoke(makeLabsName("tiny_coke"), LabsCreativeTabs.TAB_NOMI_LABS));
 
         // Custom model handling is in LabsItems
