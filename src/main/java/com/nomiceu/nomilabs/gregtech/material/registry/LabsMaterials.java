@@ -132,7 +132,15 @@ public class LabsMaterials {
     public static Material CeriumConcentrate; // ID: 122; HM only
     public static Material DissolvedCeriumConcentrate; // ID: 123; HM only
     public static Material VaporousNitricAcid; // ID: 124
-    public static Material EuropiumFOD; // ID: 125
+    public static Material EuropiumFod; // ID: 125
+    public static Material Hfod; // ID: 126
+    public static Material Terpyridine; // ID: 127
+    public static Material EuropiumChelate; // ID: 128
+    public static Material TerpyridineEuropiumFod;
+    public static Material CrystallizedTerpyridineEuropiumFod;
+    public static Material FilteredEuropiumFodCompound;
+    public static Material WashedEuropiumFodCompound;
+    public static Material CrystallizedEuropiumFodCompound;
 
     /**
      * Microverse Materials

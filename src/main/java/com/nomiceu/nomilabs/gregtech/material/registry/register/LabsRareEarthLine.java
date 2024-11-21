@@ -51,9 +51,49 @@ public class LabsRareEarthLine {
                 .color(0xeaf293)
                 .components(Hydrogen, 1, Nitrogen, 1, Oxygen, 3)
                 .build();
-        EuropiumFOD = new Material.Builder(125, makeLabsName("europium_fod"))
+        EuropiumFod = new Material.Builder(125, makeLabsName("europium_fod"))
                 .dust()
                 .color(0xf2ec4d).iconSet(FINE)
+                .components(Carbon, 30, Hydrogen, 30, Europium, 1, Fluorine, 21, Oxygen, 6)
+                .build();
+        Hfod = new Material.Builder(126, makeLabsName("hfod"))
+                .dust()
+                .color(0x6ae86a).iconSet(FINE)
+                .components(Carbon, 10, Hydrogen, 11, Fluorine, 7, Oxygen, 2)
+                .build();
+        Terpyridine =  new Material.Builder(127, makeLabsName("terpy"))
+                .dust()
+                .color(0xdee0de).iconSet(FINE)
+                .components(Carbon, 15, Hydrogen, 11, Nitrogen, 3)
+                .build();
+        EuropiumChelate = new Material.Builder(128, makeLabsName("eu_chelate"))
+                .dust()
+                .color(0x48a8ce).iconSet(FINE)
+                .components(Carbon, 30, Hydrogen, 35, Europium, 1, Fluorine, 21, Oxygen, 7)
+                .build();
+        TerpyridineEuropiumFod = new Material.Builder(129, makeLabsName("terpy_eu_fod"))
+                .dust()
+                .color(0x61e8c8).iconSet(FINE)
+                .components(Carbon, 45, Hydrogen, 44, Europium, 1, Fluorine, 21, Oxygen, 6, Nitrogen, 3)
+                .build();
+        CrystallizedTerpyridineEuropiumFod = new Material.Builder(130, makeLabsName("crystal_terpy_eu_fod"))
+                .dust()
+                .color(0x61e8c8).iconSet(ROUGH)
+                .components(Carbon, 45, Hydrogen, 44, Europium, 1, Fluorine, 21, Oxygen, 6, Nitrogen, 3)
+                .build();
+        FilteredEuropiumFodCompound = new Material.Builder(131, makeLabsName("filtered_europium_fod"))
+                .dust()
+                .color(0xb2ae40).iconSet(ROUGH)
+                .components(Carbon, 30, Hydrogen, 30, Europium, 1, Fluorine, 21, Oxygen, 6)
+                .build();
+        WashedEuropiumFodCompound = new Material.Builder(132, makeLabsName("washed_europium_fod"))
+                .dust()
+                .color(0xb2ae40).iconSet(FINE)
+                .components(Carbon, 30, Hydrogen, 30, Europium, 1, Fluorine, 21, Oxygen, 6)
+                .build();
+        CrystallizedEuropiumFodCompound = new Material.Builder(133, makeLabsName("crystal_eu_fod"))
+                .dust()
+                .color(0xf2ec4d).iconSet(ROUGH)
                 .components(Carbon, 30, Hydrogen, 30, Europium, 1, Fluorine, 21, Oxygen, 6)
                 .build();
     }
