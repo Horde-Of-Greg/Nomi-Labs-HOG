@@ -61,7 +61,7 @@ public class LabsRareEarthLine {
                 .color(0x6ae86a).iconSet(FINE)
                 .components(Carbon, 10, Hydrogen, 11, Fluorine, 7, Oxygen, 2)
                 .build();
-        Terpyridine =  new Material.Builder(127, makeLabsName("terpy"))
+        Terpyridine = new Material.Builder(127, makeLabsName("terpy"))
                 .dust()
                 .color(0xdee0de).iconSet(FINE)
                 .components(Carbon, 15, Hydrogen, 11, Nitrogen, 3)
