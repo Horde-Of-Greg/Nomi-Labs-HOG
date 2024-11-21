@@ -107,6 +107,7 @@ public class LabsRecipeMaps {
         LASER_ENGRAVER_RECIPES.setMaxFluidOutputs(1);
 
         ELECTROMAGNETIC_SEPARATOR_RECIPES.setMaxFluidInputs(1);
+        ELECTROMAGNETIC_SEPARATOR_RECIPES.setMaxInputs(2);
         ELECTROMAGNETIC_SEPARATOR_RECIPES.setMaxFluidOutputs(3);
     }
 }
