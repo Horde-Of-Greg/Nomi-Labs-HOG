@@ -144,17 +144,23 @@ public class LabsMaterials {
     public static Material VaporousNitricAcid; // ID: 124
 
     /**
-     * Printing Filaments Materials
+     * Open Computers compat Materials
      */
+    // PLA
     public static Material PolylacticAcid; // ID: 125
     public static Material CarbonatedBiomassBroth; // ID: 126
     public static Material FermentedBiomassBroth; // ID: 127
     public static Material LacticAcid; // ID: 128
     public static Material CrudeLacticAcid; // ID: 129
 
+    // Nylon
     public static Material Nylon; // ID: 130
 
+    // PEEK
     public static Material Peek; // ID: 131
+
+    // Grog
+    public static Material Grog;
 
     /**
      * Microverse Materials
@@ -234,7 +240,7 @@ public class LabsMaterials {
         LabsRareEarthLine.initRareEarthLine();
 
         /* Printing Filaments Materials */
-        LabsPrintingFilaments.initPrintingFilaments();
+        LabsOpenComputers.initOpenComputers();
 
         /* Microverse Materials */
         LabsMicroverse.initMicroverse();
